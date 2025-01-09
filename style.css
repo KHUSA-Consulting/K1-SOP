@@ -3,6 +3,12 @@ html, body {
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     text-align:justify;
+    background-color: rgb(172, 173, 172);
+}
+
+.logo-top{
+    bottom: 0%;
+    background-color: white;
 }
 
 .logo-bottom{
@@ -15,7 +21,7 @@ html, body {
 }
 
 .content{
-    margin: 25px;
+    margin: 30px;
 }
 
 .full_image img {
