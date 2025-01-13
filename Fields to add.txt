@@ -9,3 +9,31 @@ User
 Supervisor
 
 
+refers
+User
+id="add_empl_num" - (Refer to adding an employer number section)
+     <a href="#add_empl_num"> (Refer to adding an employer number section).</a>
+
+id="callback_create" - (Refer to the callback creation section)
+    <a href="#callback_create"> (Refer to the callback creation section).</a>
+
+id="case_create" - (Refer to the case creation section)
+    <a href="#case_create"> (Refer to the case creation section).</a>
+
+id="call_handling" - (Refer to call handling section)
+    <a href="#call_handling"> (Refer to call handling section).</a>
+
+id="sending_email" - (Refer to sending an email section)
+    <a href="#sending_email"> (Refer to sending an email section).</a>
+
+id="sending_SMS" - (Refer to sending a SMS section)
+    <a href="#sending_SMS"> (Refer to sending a SMS section).</a>
+
+id="send_letter" - (Refer to sending a letter section)
+    <a href="#send_letter"> (Refer to sending a letter section).</a>
+
+id="needs" - (Refer to Needs Analysis section)
+    <a href="#needs"> (Refer to Needs Analysis section).</a>
+
+id="contact_create" - (Refer to contact creation section)
+    <a href="#contact_create"> (Refer to contact creation section).</a>
