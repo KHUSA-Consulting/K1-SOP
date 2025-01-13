@@ -1,5 +1,4 @@
 All
-* WhatsApp
 * Check full and half images
 * Link all "refers"
 
