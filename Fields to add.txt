@@ -1,39 +1,64 @@
 All
 * Check full and half images
-* Link all "refers"
-
-User 
-
-
-
-Supervisor
-
 
 refers
-User
+
 id="add_empl_num" - (Refer to adding an employer number section)
      <a href="#add_empl_num"> (Refer to adding an employer number section).</a>
+     <h3 id="add_empl_num">Add Employer Number</h3>
+     (Refer to Add employer number section).
 
 id="callback_create" - (Refer to the callback creation section)
     <a href="#callback_create"> (Refer to the callback creation section).</a>
+    <h3 id="callback_create">Callback request</h3>
+    (Refer to the callback creation section).
+    (Refer to the callback creation section).
+    (Refer to Callback section).
+    (Refer to the callback creation section).
+    (Refer to Callback section).
+    (Refer to the callback creation section).
 
 id="case_create" - (Refer to the case creation section)
     <a href="#case_create"> (Refer to the case creation section).</a>
+    <h3 id="case_create">Add Case</h3>
+    (Refer to the case creation section).
+    (Refer to Case Creation).
+    (Refer to Case section).
+    (Refer to the case creation section).
+    (Refer to the case creation section).
 
 id="call_handling" - (Refer to call handling section)
     <a href="#call_handling"> (Refer to call handling section).</a>
+    <h2 id="call_handling">Voice call handling</h2> 
+    (Refer to handling a call section).
 
 id="sending_email" - (Refer to sending an email section)
     <a href="#sending_email"> (Refer to sending an email section).</a>
+    <h3 id="sending_email">Send Email</h3>
+    (Refer to the email section for detailed emailing steps).
+    (Refer to email section).
 
 id="sending_SMS" - (Refer to sending a SMS section)
     <a href="#sending_SMS"> (Refer to sending a SMS section).</a>
+    <h3 id="sending_SMS">SMS (Not available yet)</h3>
+    (Refer to the SMS section for detailed SMS steps).
+    (Refer to Send SMS section).
 
 id="send_letter" - (Refer to sending a letter section)
     <a href="#send_letter"> (Refer to sending a letter section).</a>
+    <h3 id="send_letter">Send letter</h3>
+    (Refer to send letter).
+    (Refer to send letter).
+    (Refer to Send Letter section).
 
 id="needs" - (Refer to Needs Analysis section)
     <a href="#needs"> (Refer to Needs Analysis section).</a>
+    <h3 id="needs">Needs analysis</h3>
+    (Refer to needs analysis section).
+    (Refer to Needs Analysis section).
 
 id="contact_create" - (Refer to contact creation section)
     <a href="#contact_create"> (Refer to contact creation section).</a>
+    <h3 id="contact_create">Add</h3>
+    (Refer to Contact section).
+    (Refer to Contact section).
