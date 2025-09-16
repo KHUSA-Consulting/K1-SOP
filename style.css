@@ -25,7 +25,7 @@ html, body {
 }
 
 .full_image img {
-    width: 700px; 
+    width: 1000px; 
     height: auto; 
     border: 5px;
     border-radius: 5px;
@@ -34,7 +34,7 @@ html, body {
 }
 
 .half_image img {
-    width: 500px; 
+    width: 700px; 
     height: auto; 
     border: 5px;
     border-radius: 5px;
