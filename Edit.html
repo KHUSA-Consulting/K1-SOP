@@ -1,0 +1,812 @@
+<h3>Aged Cases</h3>
+
+<p>This report lets you see at a glance how many cases are open and the respective age of them. You can group by any field on the Case including custom fields.</p>
+
+    <ol>
+        <li>Click the "Aged Cases” Button.</li>
+        <li>Select a Date Range: Choose the appropriate date range for the report.</li>
+        <li>Complete All Required Fields: Fill in the necessary details as filters to obtain the report.</li>
+        <li>Click the "Search" Button: Finalise the report generation by clicking the "Search" button to display the results.</li>
+    </ol>
+
+
+    <p>Step: Click the "Aged Cases” Button.</p>
+        <div class="full_image">
+            <img class="img-fluid" src="pictures/supervisor/.png" alt="" loading="lazy">
+        </div>
+    <p>Step: Select a Date Range: Choose the appropriate date range for the report.</p>
+        <div class="full_image">
+            <img class="img-fluid" src="pictures/supervisor/.png" alt="" loading="lazy">
+        </div>
+    <p>Step: Complete All Required Fields: Fill in the necessary details as filters to obtain the report.</p>
+        <div class="full_image">
+            <img class="img-fluid" src="pictures/supervisor/.png" alt="" loading="lazy">
+        </div>
+    <p>Step: Click the "Search" Button: Finalise the report generation by clicking the "Search" button to display the results.</p>
+        <div class="full_image">
+            <img class="img-fluid" src="pictures/supervisor/.png" alt="" loading="lazy">
+        </div>
+
+
+<h4>Filters</h4>
+<ol>
+    <li>From: A date with time representing the start of your query time range. Only cases created during this time period will count.</li>
+    <li>To: A date with time representing the end of your query time range. Only cases created during this time period will count.</li>
+    <li>Group By: The field on the Case you wish to group by.</li>
+</ol>
+
+<h4>Output</h4>
+<ol>
+    <li>Label: Name of the outbound channel.</li>
+    <li>24h: The number of unsolved cases which are less than 24h old since being created.</li>
+    <li>1d: The number of unsolved cases which are between 24h and 48h (1 day) old since being created.</li>
+    <li>2d: The number of unsolved cases which are between 48h and 72h (2 days) old since being created.</li>
+    <li>3d: The number of unsolved cases which are between 72h and 96h (3 days) old since being created.</li>
+    <li>4d: The number of unsolved cases which are between 96h and 120h (4 days) old since being created.</li>
+    <li>5d: The number of unsolved cases which are between 120h and 144h (5 days) old since being created.</li>
+    <li>6d: The number of unsolved cases which are between 144h and 168h (6 days) old since being created.</li>
+    <li>7d+: The number of unsolved cases which are between 7 days and 14 days old since being created.</li>
+    <li>14d+: The number of unsolved cases which are between 14 days and 21 days old since being created.</li>
+    <li>21d+: The number of unsolved cases which are between 21 days and 30 days old since being created.</li>
+    <li>30d+: The number of unsolved cases which are between 30 days and 60 days old since being created.</li>
+    <li>60d+: The number of unsolved cases which are between 60 days and 90 days old since being created.</li>
+    <li>90d+: The number of unsolved cases which are over 90 days old since being created.</li>
+</ol>
+
+
+<h3>Agent breakdown</h3>
+<p>The Agent Breakdown Report provides individual interaction metrics for each agent, combining data found in the Agent Productivity Report and the Summary of Productivity Report at the user level.</p>
+                
+<ol>
+    <li>Click the "Agent Breakdown” Button.</li>
+    <li>Select a Date Range: Choose the appropriate date range for the report.</li>
+    <li>Complete All Required Fields: Fill in the necessary details as filters to obtain the report.</li>
+    <li>Click the "Search" Button: Finalise the report generation by clicking the "Search" button to display the results.</li>
+</ol>
+                    
+<p>Step 1: Click the "Agent Breakdown Report" Button.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/image317.png" alt="Agent Breakdown Report" loading="lazy">
+    </div>
+<p>Step 2: Select a Date Range.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/image318.png" alt="Date Range" loading="lazy">
+    </div>
+<p>Step 3: Complete All Required Fields.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/image319.png" alt="Complete All Required Fields" loading="lazy">
+    </div>
+<p>Step 4: Click the "Search" Button.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/image320.png" alt="Search" loading="lazy">
+    </div>
+                        
+<h4>Example</h4>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/image321.png" alt="Example" loading="lazy">
+    </div>
+
+<h4>Filters</h4>
+    <ol>
+        <li>From: A date with time representing the start of your query time range. No information older than this date is used.</li>
+        <li>To: A date with time representing the end of your query time range. No information newer than this date is used.</li>
+        <li>User: The user whose activity the report should display. Leaving this blank will display data for all users.</li>
+        <li>Channel Types: Specific Channels the information should be limited to. Selecting Channel ‘A’ and ‘B’ for example will result in data related to those Channels. Specifying no Channels means all channels will be included.</li>
+    </ol>
+                        
+<h4>Headlines</h4>
+    <ol>
+        <li>Total Interactions: The total amount of incoming interactions offered to the agent or outbound interactions made by the agent. Note that inbound interactions that failed to offer, for instance, the agent not answering on time or it being a voice interaction without the agent having a connected voice device, are not counted.</li>
+        <li>Answered: The total amount of Answered Interactions. Inbound and Outbound.</li>
+        <li>Answered Inbound: The total amount of Answered Inbound Interactions.</li>
+        <li>Answered Outbound: The total amount of Answered Outbound Interactions.</li>
+        <li>Rejected: The total amount of Inbound Interactions Rejected by the user. Where the user has physically rejected the interaction.</li>
+        <li>Missed: The total amount of Inbound Interactions Offered to the user that they did not answer within the departments offering timeout and the user was put on "Not Responding". Thereby being a Missed Interaction.
+            <br>Note: This excludes Outbound interactions which are not answered.</li>
+        <li>Avg Answer: The average time it takes for the user to answer an interaction.</li>
+        <li>Avg Handle Time: Average handle time. The average time the user spends handling an Interaction. This includes time communicating and wrapping up.</li>
+        <li>Presentations: Amount of dispositions applied that are presentations.</li>
+        <li>DMC: Amount of dispositions applied that are decision-making contacts.</li>
+        <li>DNC: Amount of dispositions applied that are Do Not Calls.</li>
+        <li>Sales: Amount of dispositions applied that are sales.</li>
+        <li>Talk Time: Total duration the agent has spent communicating. Note this sum does not include time spent in the wrap-up.</li>
+        <li>Wrap Time: Total duration agent has spent in wrap up. This is the time between the end of the interaction and the moment the agent dispositions the interaction if a disposition is required.</li>
+        <li>Idle Time: The total duration an agent has spent in the idle status. This means the agent is not on queue or paused.</li>
+        <li>Pause Time: The total duration an agent has spent in the pause status. This can be expanded to display a breakdown of the various time spent in various pause statuses. Select the toggle called "Breakout pause reasons".</li>
+        <li>Pending Time: Shows the sum of the (Waiting for Customer) measurements used in the response times report.</li>
+        <li>Warm Transfer: Total count of warm transfers.</li>
+        <li>Blind Transfer: Total count of blind transfers.</li>
+        <li>Not Responding: Total time the user spent in "Not Responding". Interactions were offered to the user, that didn't answer before the Offering Timeout was reached. The user state is then changed to "Not Responding".</li>
+        <li>Dialer %: The average duration an agent has spent in the following states: on queue, communicating or wrap up based on the total amount of time they have spent in all states while logged in.</li>
+        <li>Occupied %: The average duration an agent has spent on interactions (communicating and wrap-up) based on the total amount of time they have spent in all states while logged in.</li>
+        <li>CSAT Score: The average CSAT a user has received across the interactions where CSAT was rated. The CSAT rating is from 1-5 Stars, where 1 is the lowest rating and 5 is the highest rating.</li>
+        <li>CSAT Count: How many Interactions received a CSAT rating</li>
+        <li>Days of Attendance: Number of days an agent was present and on queue and answered an interaction. Calculated daily each time an agent logs in, goes on queue and answers an Interaction.</li>
+        <li>User Status: What percentage and time the user spent if certain statuses</li>
+        <li>Call Outcome: A Disposition has additional options that can be selected further defining what the Disposition represents. These selection options are available in Settings > Dispositions > Select a Disposition. This displays a breakdown of Dispositions which have these options selected.</li>
+        <li>Conversion (%): The percentage of decision-making contacts converted into sales.</li>
+        <li>Presentation Conversion (%): The percentage of your total calls dispositioned as presentations.</li>
+        <li>All Dispositions: Graph visualizing applied dispositions per channel type.</li>
+    </ol>
+                        
+<h4>User Interactions Outputs</h4>
+    <ol>
+        <li>Label: Disposition name.</li>
+        <li>Calls: Amount of voice interactions.</li>
+        <li>Emails: Amount of email interactions.</li>
+        <li>Chats: Amount of web chat interactions.</li>
+        <li>SMS: Amount of SMS interactions.</li>
+        <li>Socials: Amount of social interactions (Facebook, Instagram, …).</li>
+        <li>WhatsApp: Amount of WhatsApp interactions</li>
+        <li>Callback: Amount of callback interactions.</li>
+        <li>Outside SLA: When SLA is specified on Dispositions, they will display the number of Interactions which were outside of SLA where the disposition was applied to the Interaction.</li>
+        <li>DMC: Whether the disposition is a DMC.</li>
+        <li>DNC: Whether the disposition is a DNC.</li>
+        <li>Presentation: Whether the disposition is a presentation.</li>
+        <li>Sale: Whether the disposition is a sale.</li>
+        <li>Average Duration: The average duration of the interactions.</li>
+        <li>Unique Contacts: Amount on unique contacts.</li>
+    </ol>
+
+
+<h3>Agent KPI Productivity</h3>
+<p>This report is designed to give you a useful overview of your top-line KPIs against agents.</p>
+
+    <ol>
+        <li>Click the "Agent KPI Productivity” Button.</li>
+        <li>Select a Date Range: Choose the appropriate date range for the report.</li>
+        <li>Complete All Required Fields: Fill in the necessary details as filters to obtain the report.</li>
+        <li>Click the "Search" Button: Finalise the report generation by clicking the "Search" button to display the results.</li>
+    </ol>
+
+
+    <p>Step: Click the "Agent KPI Productivity” Button.</p>
+        <div class="full_image">
+            <img class="img-fluid" src="pictures/supervisor/.png" alt="" loading="lazy">
+        </div>
+    <p>Step: Select a Date Range: Choose the appropriate date range for the report.</p>
+        <div class="full_image">
+            <img class="img-fluid" src="pictures/supervisor/.png" alt="" loading="lazy">
+        </div>
+    <p>Step: Complete All Required Fields: Fill in the necessary details as filters to obtain the report.</p>
+        <div class="full_image">
+            <img class="img-fluid" src="pictures/supervisor/.png" alt="" loading="lazy">
+        </div>
+    <p>Step: Click the "Search" Button: Finalise the report generation by clicking the "Search" button to display the results.</p>
+        <div class="full_image">
+            <img class="img-fluid" src="pictures/supervisor/.png" alt="" loading="lazy">
+        </div>
+
+<h4>Output</h4>
+<ol>
+    <li>Label: The user the stats belong to</li>
+    <li>Days Attend: Number of unique days the user has attended during the report period</li>
+    <li>Ans Offers: Incoming interactions offered to the user they have answered</li>
+    <li>Day avg: Average number of offered interactions the user has answered per day attended</li>
+    <li>Avg Prod: Average amount of time spent in Talk + Wrap + Wait per day attended</li>
+    <li>Out IX: Number of outgoing interactions made by the user. Please note, if on a digital channel such as live chat, this increments by one for every message sent - not per conversation. Likewise, if you're on a phone call, and make 5 attempts to dial a 3rd party during that call - this will show 5 not 1 too.</li>
+    <li>Out %: Calculation: Out IX / Ans In</li>
+    <li>Trans IX: Number of outgoing transfer attempts made by the user. This includes failed transfer attempts.</li>
+    <li>Trans %: Calculation: Trans IX / Ans In</li>
+    <li>CSAT Scored: Number of interactions handled by the user which have been scored for CSAT by customers.</li>
+    <li>CSAT %: Calculation: (CSAT Scores 4 + 5) / CSAT Scored</li>
+    <li>Case Open: Number of cases opened during the report period and currently assigned to this user</li>
+    <li>Solved %: Number of cases opened during the report period, current assigned to this user, and have been solved at least once / Number of cases opened during the report period and currently assigned to this user</li>
+    <li>Avg First Resp: Average time for the first response to a ticket, where the ticket was opened during the report period and currently assigned to this user. This value will only be present if you are using SLA logic on cases.</li>
+    <li>Avg First Solve: Average time for the first solve on a ticket, where the ticket was opened during the report period and currently assigned to this user. This value will only be present if you are using SLA logic on cases.</li>
+    <li>Avg Hold: Average amount of time the user placed voice calls on hold.</li>
+    <li>Avg Wrap: Average amount of time the user spent in wrap.</li>
+    <li>IX Hold: Total amount of hold time for this agent by Interaction. Note - as a user can be handling more than one interaction at once, this value can be larger than the Talk figure below.</li>
+    <li>IX Wrap: Total amount of wrap time for this agent by Interaction. Note - as a user can be handling more than one interaction at once, this value can be larger than the Wrap figure below.</li>
+    <li>Talk: The total amount of time the user spent in Communicating status. This is "Clock Time" and ignores the fact the user could be handling 10 interactions at same time, and just counts their overall user status.</li>
+    <li>Wrap: The total amount of time the user spent in Wrap-Up status. This is "Clock Time" and ignores the fact the user could be handling 10 interactions at same time, and just counts their overall user status.</li>
+    <li>Wait: The total amount of time the user spent in Waiting status.</li>
+    <li>Total: Calculation: Talk + Wrap + Wait</li>
+</ol>
+
+<h3>Agent Productivity</h3>
+<p>The agent productivity report gives valuable information on the productivity of your agents based on your specific filters.</p>
+                        
+<ol>
+    <li>Click the " Agent Productivity” Button.</li>
+    <li>Select a Date Range: Choose the appropriate date range for the report.</li>
+    <li>Complete All Required Fields: Fill in the necessary details as filters to obtain the report.</li>
+    <li>Click the "Search" Button: Finalise the report generation by clicking the "Search" button to display the results.</li>
+</ol>
+
+<p>Step 1: Click the "Agent Productivity” Button.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Agent Productivity" loading="lazy">
+    </div>
+<p>Step 2: Select a Date Range.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Date Range" loading="lazy">
+    </div>
+<p>Step 3: Complete All Required Fields.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Complete All Required Fields" loading="lazy">
+    </div>
+<p>Step 4: Click the "Search" Button.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Search" loading="lazy">
+    </div>
+
+<h4>Example</h4>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Example" loading="lazy">
+    </div>
+                            
+<h4>Filters</h4>
+    <ol>
+        <li>From: A date with time representing the start of your query time range. No information older than this date is used.</li>
+        <li>To: A date with time representing the end of your query time range. No information newer than this date is used.</li>
+        <li>Channel Types: Specific Channels the information should be limited to. Selecting Channel ‘A’ and ‘B’ for example will result in data related to those Channels. Specifying no Channels means all channels will be included.</li>
+        <li>Departments: Specific departments the information should be limited to. Selecting departments ‘A’ and ‘B’ for example will result in data related to those departments. Specifying no departments means all departments will be included.</li>
+        <li>Users: Specific users you wish the information to be limited to. Selecting users ‘X’ and ‘Y’ for example will result in information for only those users. Specifying no users means all users will be included. Note that combining the users filter with the departments filter results in productivity for the specific users under the specific departments. For example, selecting user ‘X’ and department ‘A’ will only show the productivity user ‘X’ has under department ‘A’.</li>
+        <li>Groups: Specific User Groups you wish the information to be limited to. Selecting Group ‘A’ and ‘B’ for example will result in data related to those groups. User groups are created in settings and associated with the User Profiles. Specifying no group, means all groups will be included.</li>
+        <li>Show all users: Select this option to display data for users with 0 interactions.</li>
+    </ol>                    
+                            
+<h4>Toggle Options</h4>
+    <ol>
+        <li>Breakout Pause Reasons: Expand the Pause Column to show all Pause reasons used for the Reporting period selected for a specific user.</li>
+        <li>Use Clock Time:
+            <ol type="a">
+                <li>When toggled off: Talk time is the total talk time of each user interaction - it would not include ringing or offering. Wrap time is the total wrap time of each interaction of the user.</li>
+                <li>When toggled on: Comm time is the total time the user spent in Communicating status. Wrap is the total time the user spent in Wrap-Up status This parameter is mainly useful when your staff are handling multiple conversations at the same time, to ensure you're not double counting agent time. However, it will hide any issues of people spending long times in Wrap to avoid receiving more conversations when they are at max capacity.</li>        
+            </ol>
+        </li>
+        <li>Use Business Hours: When toggling on: This will display the results for users during business hours based on the related schedule rather than the total amount of time.</li>
+    </ol>
+                            
+                            
+<h4>Output</h4>
+<p>There should never be a case where you are expecting the IX column to be a total of the the Ans + Rej + Miss columns.</p>
+<p>The reason for this is that most non-voice channels have no concept of an outbound action being answered (for example there is no way to tell whether an SMS has been "answered")</P>
+    <ol>
+        <li>Label: Agent’s Name.</li>
+        <li>IX: The total amount of incoming interactions offered to the agent or outbound interactions made by the agent. Note that inbound interactions that failed to offer, for instance, the agent not answering on time or it being a voice interaction without the agent having a connected voice device, are not counted.</li>
+        <li>Ans: The total amount of Answered Interactions. Inbound and Outbound.</li>
+        <li>Ans In: The total amount of Answered Inbound Interactions.</li>
+        <li>Ans Out: The total amount of Answered Outbound Interactions.</li>
+        <li>Note: This does not apply to channels such as Email, SMS, Webchat etc.</li>
+        <li>Rej: The total amount of Inbound Interactions Rejected by the user. Where the user has physically rejected the interaction.</li>
+        <li>Miss: The total amount of Inbound Interactions Offered to the user that they did not answer within the departments offering timeout and the user was put on "Not Responding". Thereby being a Missed Interaction.</li>
+        <li>Note: This excludes Outbound interactions which are not answered.</li>
+        <li>Avg Ans: The average time it takes for the user to answer an interaction.</li>
+        <li>AHT: Average handle time. The average time the user spends handling an Interaction. This includes time communicating and wrapping up.</li>
+        <li>Pres: Amount of dispositions applied that are presentations.</li>
+        <li>DMC: Amount of dispositions applied that are decision-making contacts.</li>
+        <li>Sale: Amount of dispositions applied that are sales.</li>
+        <li>Pres (%): The percentage of your total calls dispositioned as presentations.</li>
+        <li>Conv (%): The percentage of decision-making contacts converted into sales.</li>
+        <li>Warm: Total count of warm transfers.</li>
+        <li>Blind: Total count of blind transfers.</li>
+        <li>Not Res: Total time the user spent in "Not Responding". Interactions were offered to the user, that didn't answer before the Offering Timeout was reached. The user state is then changed to "Not Responding".</li>
+        <li>Talk: Total duration the agent has spent communicating. Note this sum does not include time spent in wrap-up.</li>
+        <li>Wrap: Total duration agent has spent in wrap up. This is the time between the end of the interaction and the moment the agent dispositions the interaction if a disposition is required.</li>
+        <li>Wait: The total duration an agent has spent on queue waiting for a call.</li>
+        <li>Idle: The total duration an agent has spent in the idle status. This means the agent is not on queue or paused.</li>
+        <li>Pause: The total duration an agent has spent in the pause status. This can be expanded to display a breakdown of the various time spent in various pause statuses. Select the toggle called "Breakout pause reasons".</li>
+        <li>Dialer (%): The average duration an agent has spent in the following states: on queue, communicating or wrap up based on the total amount of time they have spent in all states while logged in.</li>
+        <li>Occupied (%): The average duration an agent has spent on interactions (communicating and wrap-up) based on the total amount of time they have spent in all states while logged in.</li>
+        <li>Avg CSAT: The average CSAT a user has received across the interactions where CSAT was rated. The CSAT rating is from 1-5 Stars, where 1 is the lowest rating and 5 is the highest rating.</li>
+        <li>CSAT Count: How many Interactions received a CSAT rating</li>
+        <li>Pending: Shows the sum of the (Waiting for Customer) measurements used in the response times report.</li>
+        <li>Outside SLA: When SLA is specified on Dispositions, they will display the number of Interactions which were outside of SLA where the disposition was applied to the Interaction.</li>
+        <li>Days of Attendance: Number of days an agent was present and on queue and answered an interaction. Calculated daily each time an agent logs in, goes on queue and answers and Interaction.</li>
+    </ol>
+
+<h3>CAI Insights</h3>
+<p>For every conversation, our Communication AI (CAI) will automatically run sentiment analysis and predicted customer satisfaction. The CAI insights report will show you this information broken down by either the disposition of the conversation, or where you are using QContact's ticketing, you can also break this down by any Case field.</p>
+<p>If you are using Topic Rules, you will also gain a breakdown of topics discussed within Conversations beyond just the disposition, which can be filtered by the selected grouping field.</p>
+
+<ol>
+    <li>Click the "CAI Insights” Button.</li>
+    <li>Select a Date Range: Choose the appropriate date range for the report.</li>
+    <li>Complete All Required Fields: Fill in the necessary details as filters to obtain the report.</li>
+    <li>Click the "Search" Button: Finalise the report generation by clicking the "Search" button to display the results.</li>
+</ol>        
+
+
+<p>Step 1: Click the "CAI Insights” Button.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Case Summary" loading="lazy">
+    </div>
+<p>Step 2: Select a Date Range: Choose the appropriate date range for the report.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Date" loading="lazy">
+    </div>
+<p>Step 3: Complete All Required Fields: Fill in the necessary details as filters to obtain the report.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Complete All Required Fields" loading="lazy">
+    </div>
+<p>Step 4: Click the "Search" Button: Finalise the report generation by clicking the "Search" button to display the results.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Search" loading="lazy">
+    </div>
+
+<h4>Example</h4>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Example" loading="lazy">
+    </div>
+
+
+<h4>Filters</h4>
+<ol>
+    <li>From: A date with time representing the start of your query time range. No information older than this date is used.</li>
+    <li>To: A date with time representing the end of your query time range. No information newer than this date is used.</li>
+    <li>Group By: By default, the results will be broken down by Disposition. You can alternatively pivot the report by any Case field, where you are using auto case creation, or linking conversations to cases. If you select anything other than the default Disposition group by, the following two parameters aren't shown.</li>
+    <li>Departments: Specific departments the information should be limited to. Selecting departments ‘A’ and ‘B’ for example will result in data related to those departments. Specifying no departments means all departments will be included.</li>
+    <li>Channel Types: Specific channel types the information should be limited to. Selecting channels ‘Voice’ and ‘E-mail’ for example will result in data related to both of those channels. Specifying no channel types means all channel types will be included.</li>
+</ol>
+
+<h4>Top-line Results</h4>
+<ol>
+    <li>Average Handle Time: The average amount of time spent handling the interactions (Talk + Wrap)</li>
+    <li>Average Hold Time: The average amount of time the agent put the customer on hold (only applicable for voice interactions)</li>
+    <li>Average Queue / Wait Time: The average amount of time spent waiting for an agent to answer.</li>
+    <li>Average AI CSAT: The average CSAT score as scored by CAI</li>
+    <li>Average Sentiment: The average customer sentiment as scored by CAI - with 0% being 100% negative, 50% being 100% neutral, and 100% being 100% positive.</li>
+</ol>
+
+<h4>Breakdown when grouping by Disposition</h4>
+<ol>
+    <li>Disposition: The average amount of time spent handling the interactions (Talk + Wrap)</li>
+    <li>IXs: The average amount of time the agent put the customer on hold (only applicable for voice interactions)</li>
+    <li>Avg Handle: The average handle time for this specific disposition</li>
+    <li>Avg Hold: The average hold time for this specific disposition (where voice)</li>
+    <li>Sentiment: The breakdown of sentiment for this specific disposition</li>
+    <li>Avg CSAT: The average CSAT for this specific disposition</li>
+    <li>Impact Rating: The impact this disposition has on the overall workload for the team. For example if 50% of the time is spent handling this specific disposition, the impact would be 50%.</li>
+    <li>CX Impact Rating: The impact this disposition has on the overall customer experience. For example if one disposition is generating more negative sentiment or poor CSAT ratings, it would have an outsized CX impact compared to the standard impact rating.</li>
+</ol>
+
+<h4>Breakdown when grouping by Case field</h4>
+<ol>
+    <li>Field: The value of the case field you've grouped / pivoted by.</li>
+    <li>Count: The number of cases which match that grouping.</li>
+    <li>Average Initial CSAT: The average AI CSAT for this pivot on the initial conversation.</li>
+    <li>Average Final CSAT: The average AI CSAT for this pivot on the final conversation. If there is only a single conversation for a case, then both values would be equal.</li>
+    <li>Initial Sentiment: The average AI Sentiment for this pivot on the initial conversation.</li>
+    <li>Final Sentiment: The average AI Sentiment for this pivot on the final conversation. If there is only a single conversation for a case, then both values would be equal.</li>
+</ol>
+
+<h3>Case Summary</h3>
+<p>The Case Summary Report provides insights into case processing based on the selected filters, with the "Group by" filter defaulted to "Category." This report includes additional data relevant to SLA (Service Level Agreement) reporting, offering a comprehensive view of case handling and efficiency.</p>
+                            
+<ol>
+    <li>Click the "Case Summary” Button.</li>
+    <li>Select a Date Range: Choose the appropriate date range for the report.</li>
+    <li>Complete All Required Fields: Fill in the necessary details as filters to obtain the report.</li>
+    <li>Click the "Search" Button: Finalise the report generation by clicking the "Search" button to display the results.</li>
+</ol>        
+
+
+<p>Step 1: Click the "Case Summary” Button.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Case Summary" loading="lazy">
+    </div>
+<p>Step 2: Select a Date Range: Choose the appropriate date range for the report.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Date" loading="lazy">
+    </div>
+<p>Step 3: Complete All Required Fields: Fill in the necessary details as filters to obtain the report.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Complete All Required Fields" loading="lazy">
+    </div>
+<p>Step 4: Click the "Search" Button: Finalise the report generation by clicking the "Search" button to display the results.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Search" loading="lazy">
+    </div>
+
+<h4>Example</h4>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Example" loading="lazy">
+    </div>
+
+<h4>Filters</h4>
+    <ol>
+        <li>From: A date with time representing the start of your query time range. No information older than this date is used.</li>
+        <li>To: A date with time representing the end of your query time range. No information newer than this date is used.</li>
+        <li>Category: Optional case category to only consider cases of said category in the final result.</li>
+        <li>Assigned to: A filter to display case data assigned to a specific user or multiple users. Selecting assigned users ‘X’ and ‘Y’ for example will result in information for only those users. Specifying no users means all users will be included.</li>
+        <li>Group by: This filter allows you to display the data grouped by a specific field associated with the Cases.</li>
+    </ol>
+
+<h4>Headlines</h4>
+    <ol>
+        <li>Cases opened: Amount of cases opened.</li>
+        <li>Cases solved: Amount of cases solved.</li>
+        <li>Cases closed: Amount of cases closed.</li>
+        <li>Still open: Amount of cases still open. Cases which are not "Solved" or "Closed".</li>
+        <li>One touch resolution (%): The percentage of cases that were solved on the first reply to a customer. This is based on the solved status defined in Organisation Settings.</li>
+        <li>Average first reply (business hours): The average amount of time for first replies sent to customers on a case based on business hours.</li>
+        <li>Average first solved (business hours): The average amount of time for a case to be solved the first time based on business hours. A case can be reopened by a customer’s reply based on business hours.</li>
+        <li>Average final solved (business hours): The average amount of time for a case to be solved or the last time before the case is closed based on business hours.</li>
+        <li>Average time to close (business hours): The average amount of time for a case to be closed based on business hours. The closed status is set in Organisation Settings.</li>
+        <li>Median first reply (business hours): The median time for first replies sent to customers on a case based on business hours. The median is the middle time, found by ordering all time points and picking out the one in the middle.</li>
+        <li>Median first solved (business hours): The median time for a case to be solved the first time based on business hours. A case can be reopened by a customer’s reply based on business hours. The median is the middle time, found by ordering all time points and picking out the one in the middle.</li>
+        <li>Median final solved (business hours): The median time for a case to be solved or the last time before the case is closed based on business hours. The median is the middle time, found by ordering all time points and picking out the one in the middle.</li>
+        <li>Median time to close (business hours): The median time for a case to be closed based on business hours. The closed status is set in Organisation Settings. The median is the middle time, found by ordering all time points and picking out the one in the middle.</li>
+    </ol>                       
+
+<h4>Output first table</h4>
+    <ol>
+        <li>Group by Filter: Based on the "Group by" filter selected</li>
+        <li>Cases Opened: Amount of cases opened.</li>
+        <li>Cases Solved: Amount of cases solved.</li>
+        <li>Cases Closed: Amount of cases closed.</li>
+        <li>Still Open: Amount of cases still open. Cases which are not "Solved" or "Closed".</li>
+        <li>One touch resolution (%): The percentage of cases that were solved on the first reply to a customer. This is based on the solved status defined in Organisation Settings.</li>
+        <li>Average first reply (business hours): The average amount of time for first replies sent to customers on a case based on business hours.</li>
+        <li>Average first solved (business hours): The average amount of time for a case to be solved the first time based on business hours. A case can be reopened by a customer’s reply based on business hours</li>
+        <li>Average final solved (business hours): The average amount of time for a case to be solved or the last time before the case is closed based on business hours.</li>
+        <li>Average time to close (business hours): The average amount of time for a case to be closed based on business hours. The closed status is set in Organisation Settings.</li>
+        <li>Median first reply (business hours): The median time for first replies sent to customers on a case based on business hours. The median is the middle time, found by ordering all time points and picking out the one in the middle.</li>
+        <li>Median first solved (business hours): The median time for a case to be solved the first time based on business hours. A case can be reopened by a customer’s reply based on business hours. The median is the middle time, found by ordering all time points and picking out the one in the middle.</li>
+        <li>Median final solved (business hours): The median time for a case to be solved or the last time before the case is closed based on business hours. The median is the middle time, found by ordering all time points and picking out the one in the middle.</li>
+        <li>Median time to close (business hours): The median time for a case to be closed based on business hours. The closed status is set in Organisation Settings. The median is the middle time, found by ordering all time points and picking out the one in the middle.</li>
+    </ol>
+
+
+<h4>Output second table</h4>
+    <ol>
+        <li>Group by Filter: The field selected to filter the report data by.</li>
+        <li>Open: The amount of cases where the status is "Open"</li>
+        <li>Pending Customer: The amount of cases where the status is "Pending Customer". This status implies that you are waiting for feedback from the customer.</li>
+        <li>Pending Company: The amount of cases where the status is "Pending Company". This status implies that the company needs to provide feedback to the customer. In this case the company is your organisation.</li>
+        <li>Solved: The amount of cases where the status is "Solved".</li>
+        <li>Closed: The amount of cases where the status is "Closed".</li>
+    </ol>
+
+<h4>Output third table</h4>
+ <ol>
+    <li>SLA Policy: Name of the SLA triggered.</li>
+    <li>Count: Count of Cases the SLA was triggered on.</li>
+    <li>Breached: Count of Cases where the SLA was Breached.</li>
+ </ol>
+
+<h3>Channel Summary</h3>
+<p>Provides insight into the performance of your outbound voice channels.</p>
+<ol>
+    <li>Click the "Channel Summary” Button.</li>
+    <li>Select a Date Range: Choose the appropriate date range for the report.</li>
+    <li>Click the "Search" Button: Finalise the report generation by clicking the "Search" button to display the results.</li>
+</ol>
+
+<p>Step 1: Click the "Channel Summary” Button.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Channel Summary" loading="lazy">
+    </div>
+<p>Step 2: Select a Date Range: Choose the appropriate date range for the report.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Date Range" loading="lazy">
+    </div>
+<p>Step 3: Click the "Search" Button: Finalise the report generation by clicking the "Search" button to display the results.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Search" loading="lazy">
+    </div>
+
+<h4>Example</h4>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Example" loading="lazy">
+    </div>
+                            
+<h4>Filters</h4>
+    <ol>
+        <li>From: A date with time representing the start of your query time range. No information older than this date is used.</li>
+        <li>To: A date with time representing the end of your query time range. No information newer than this date is used.</li>
+    </ol>
+                                               
+<h4>Output</h4>
+    <ol>
+        <li>Label: Name of the outbound channel.</li>
+        <li>Calls: The total amount of Outbound calls for the given voice channel.</li>
+        <li>Answered: The total amount of Outbound calls that were answered</li>
+        <li>Pres: Amount of dispositions applied that are presentations.</li>
+        <li>DMC: Amount of dispositions applied that are decision-making contacts.</li>
+        <li>Answered (%): The percentage of outbound calls that were answered.</li>
+        <li>Sale: Amount of dispositions applied that are sales.</li>
+        <li>Conv (%): The percentage of decision-making contacts converted into sales.</li>
+        <li>Pres (%): The percentage of your total calls dispositioned as presentations.</li>
+    </ol>
+
+<h3>Chatbot Activity</h3>
+<p>The Chatbot Activity Report provides insights into chatbot usage. It displays the number of knowledge base articles managed by the chatbot, organized by brand, bot, category, and individual knowledge base articles. This report helps assess the chatbot’s performance and engagement with users across different segments.</p>
+<ol>
+    <li>Click the "Chatbot Activity” Button.</li>
+    <li>Select a Date Range: Choose the appropriate date range for the report.</li>
+    <li>Complete All Required Fields: Fill in the necessary details as filters to obtain the report.</li>
+    <li>Click the "Search" Button: Finalise the report generation by clicking the "Search" button to display the results.</li>
+</ol>                     
+
+<p>Step 1: Click the "Chatbot Activity” Button.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Chatbot Activity" loading="lazy">
+    </div>
+<p>Step 2: Select a Date Range: Choose the appropriate date range for the report.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Date Range" loading="lazy">
+    </div>
+<p>Step 3: Complete All Required Fields: Fill in the necessary details as filters to obtain the report.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Complete All Required Fields" loading="lazy">
+    </div>
+<p>Step 4: Click the "Search" Button: Finalise the report generation by clicking the "Search" button to display the results.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Search" loading="lazy">
+    </div>
+
+<h4>Filter</h4>
+    <ol>
+        <li>From: A date with time representing the start of your query time range. No information older than this date is used.</li>
+        <li>To: A date with time representing the end of your query time range. No information newer than this date is used.</li>
+        <li>Department: Specific departments the information should be limited to. Selecting departments ‘A’ and ‘B’ for example will result in data related to those departments. Specifying no departments means all departments will be included.</li>
+        <li>Channel Types: The channel types to filter by. When channel types are provided only conversations with those channels will be in the result. Specifying none will mean all channel types are included.</li>
+    </ol>
+
+<h3>Communication</h3>
+<p>The Communication Report provides a detailed breakdown of communication metrics across all channels. This includes counts of Incoming Queues, Incoming Messages (Interactions), Incoming Answered Messages, and Outgoing Messages (Interactions). This report helps monitor message flow and responsiveness across various channels.</p>
+<ol>
+    <li>Click the "Communication” Button.</li>
+    <li>Select a Date Range: Choose the appropriate date range for the report.</li>
+    <li>Complete All Required Fields: Fill in the necessary details as filters to obtain the report.</li>
+    <li>Click the "Search" Button: Finalise the report generation by clicking the "Search" button to display the results.</li>
+</ol>
+
+<p>Step 1: Click the "Communication” Button.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Communication" loading="lazy">
+    </div>
+<p>Step 2: Select a Date Range: Choose the appropriate date range for the report.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Date Range" loading="lazy">
+    </div>
+<p>Step 3: Complete All Required Fields: Fill in the necessary details as filters to obtain the report.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Complete All Required Fields" loading="lazy">
+    </div>
+<p>Step 4: Click the "Search" Button: Finalise the report generation by clicking the "Search" button to display the results.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Search" loading="lazy">
+    </div>
+
+<h4>Example</h4>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Example" loading="lazy">
+    </div>
+                            
+<h4>Filter</h4>
+    <ol>
+        <li>From: A date with time representing the start of your query time range. No information older than this date is used.</li>
+        <li>To: A date with time representing the end of your query time range. No information newer than this date is used.</li>
+        <li>Department: Specific departments the information should be limited to. Selecting departments ‘A’ and ‘B’ for example will result in data related to those departments. Specifying no departments means all departments will be included.</li>
+        <li>Department Groups: Should the department be associated with a Department Group, the group will be displayed here. Specifying no group means all groups will be included.</li>
+    </ol>
+                            
+<h4>Output</h4>
+    <ol>
+        <li>Channel: Channel of Communication.</li>
+        <li>Incoming Queues: Total incoming in queues.</li>
+        <li>Incoming Messages: Total incoming interactions.</li>
+        <li>Incoming Answered: Total answered in queues.</li>
+        <li>Outgoing Messages: Total outgoing interactions.</li>
+        <li>Breakdown: Shows you the data above on a Graph.</li>
+    </ol>
+                            
+<h3>Contact Activity</h3>
+    <p>The Contact Activity Report offers insights into communication with contacts across various channel types. The report can be adjusted to display data from either the contact's perspective or the agent's perspective, providing a comprehensive view of engagement and communication trends.</p>
+    <ol>
+        <li>Click the "Contact Activity" Button.</li>
+        <li>Select a Date Range: Choose the appropriate date range for the report.</li>
+        <li>Complete All Required Fields: Fill in the necessary details as filters to obtain the report.</li>
+        <li>Click the "Search" Button: Finalise the report generation by clicking the "Search" button to display the results.</li>
+    </ol>
+
+<p>Step 1: Click the "Contact Activity" Button.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Contact Activity" loading="lazy">
+    </div>
+<p>Step 2: Select a Date Range: Choose the appropriate date range for the report.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Date Range" loading="lazy">
+    </div>
+<p>Step 3: Complete All Required Fields: Fill in the necessary details as filters to obtain the report.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Complete All Required Fields" loading="lazy">
+    </div>
+<p>Step 4: Click the "Search" Button: Finalise the report generation by clicking the "Search" button to display the results.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Search" loading="lazy">
+    </div>
+
+<h4>Example</h4>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Example" loading="lazy">
+    </div>
+
+<h4>Filters</h4>
+    <ol>
+        <li>From: A date with time representing the start of your query time range. No information older than this date is used.</li>
+        <li>To: A date with time representing the end of your query time range. No information newer than this date is used.</li>
+        <li>Show By: Option to base the result on either Contact, User or Company perspective.</li>
+        <li>View: (Contact and Company perspective only) A custom list view of which the filters can be applied to the result data. This is based on the List views that have been created for the Contact and Company entities.</li>
+    </ol>
+                            
+<h4>Output if Filtered by Contact</h4>
+    <ol>
+        <li>ID: (Contact and Company perspective only) The Contact or Companies ID.</li>
+        <li>Contact: (Contact perspective Only) The Contact label.</li>
+        <li>Company: (Company perspective Only) The Company label.</li>
+        <li>User: (Agent Perspective Only) The Agent.</li>
+        <li>Calls: Amount of voice interactions.</li>
+        <li>Texts: Amount of SMS interactions.</li>
+        <li>Socials: Amount of social type interactions (Facebook, Instagram, …).</li>
+        <li>Callbacks: Amount of callback interactions.</li>
+        <li>Public Notes: Amount of public notes added.</li>
+        <li>Private Notes: Amount of private notes added.</li>
+        <li>Lead Status Changes: Amount of lead status changes.</li>
+    </ol>
+                            
+<h3>Conversation History</h3>
+    <p>The Conversation History Report provides a detailed breakdown of all conversations that took place, based on specified filters. This report includes conversation recordings, interaction paths, self-service script paths, and dispositions for each conversation, offering a comprehensive view of communication details and outcomes.</p>
+    <ol>
+        <li>Click the "Conversation History" Button.</li>
+        <li>Select a Date Range: Choose the appropriate date range for the report.</li>
+        <li>Complete All Required Fields: Fill in the necessary details as filters to obtain the report.</li>
+        <li>Click the "Search" Button: Finalise the report generation by clicking the "Search" button to display the results.</li>
+    </ol>     
+
+<p>Step 1: Click the "Conversation History" Button.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Conversation History" loading="lazy">
+    </div>
+<p>Step 2: Select a Date Range: Choose the appropriate date range for the report.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Date Range" loading="lazy">
+    </div>
+<p>Step 3: Complete All Required Fields: Fill in the necessary details as filters to obtain the report.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Complete All Required Fields" loading="lazy">
+    </div>
+<p>Step 4: Click the "Search" Button: Finalise the report generation by clicking the "Search" button to display the results.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Search" loading="lazy">
+    </div>
+
+<h4>Example</h4>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Example" loading="lazy">
+    </div>
+                            
+<h4>Filters</h4>
+    <ol>
+        <li>From: A date with time representing the start of your query time range. No information older than this date is used.</li>
+        <li>To: A date with time representing the end of your query time range. No information newer than this date is used.</li>
+        <li>Channel Types: The channel types to filter by. When channel types are provided only conversations with those channels will be in the result. Specifying none will mean all channel types are included.</li>
+        <li>Departments: Specific departments the information should be limited to. Selecting departments ‘A’ and ‘B’ for example will result in data related to those departments. Specifying no departments means all departments will be included.</li>
+        <li>Dispositions: Specific dispositions that must occur in the resulting conversations. Multiple dispositions can be present in a conversation. Specifying none will mean all dispositions are included.</li>
+        <li>Users: Specific users that must occur in the resulting conversations. Multiple users can be present on a conversation. Specifying none will mean all users are included.</li>
+        <li>Contact Method: The contact method relevant to the conversation. A telephone number or an email for example. Using this filter allows one to view conversations from a specific contact. Specifying none will mean all contact methods are included.</li>
+        <li>Direction: The direction of the conversation. Using this filter allows one to view specifically inbound/outbound interactions containing conversations.</li>
+        <li>Keywords: This filter allows you to search for specific keywords related to a conversation. For example, keywords in the body of an email.</li>
+        <li>Tags: Display conversations data that have had specific Tags linked. Conversations can be Tagged when the Interaction is open on the screen.</li>
+        <li>Groups: Specific User Groups, you wish the information to be limited to. Selecting Group ‘A’ and ‘B’ for example will result in data related to those groups. User groups are created in settings and associated with the User Profiles. Specifying no group means all groups will be included.</li>
+        <li>Duration: Set a duration to view conversations that continued longer than a specific amount of time.</li>
+        <li>Channels: Specific Channels you wish the information to be limited to. Selecting Channel ‘A’ and ‘B’ for example will result in data related to those Channels. Specifying no Channel means all Channels will be included.</li>
+        <li>Companies: Specific companies you wish the information to be limited to. Selecting companies’ ‘A’ and ‘B’ for example will result in data related to those companies. Specifying no company means all companies will be included. Note that the company filter is the last filter to be applied to the report. Should the data result be more than 100 records before applying the Company filter, the UI will only display data that is available in the first 1000 records. To see all the data for 1000 records or more, you will need to export the report to CSV. CSV export is limited to 100 000 records.</li>
+        <li>Fields: Filter for the exported contact entity fields. By default, all are provided.</li>
+        <li>Exclude Departments: Specific departments the information should exclude from the data. Selecting departments ‘A’ and ‘B’ for example will result in data related to those departments being excluded from the data. Specifying no departments means no departments will be excluded.</li>
+        <li>Use Time Only: By selecting this option, you can use the date range selection to search a date range specifying specific times instead of complete From and To date ranges and times. This will filter the report to show conversations from the 1st of July 2022 to the 10th of July 2022 that only occurred between 16:00:00 and 17:00:00 across those dates.</li>
+        <li>Sentiment: Allows you to filter and view conversations based on the categorized emotional tone (positive, negative, or neutral) detected in each interaction.</li>
+    </ol>
+                                                       
+<h4>Output</h4>
+    <ol>
+        <li>Started: The time the conversation initially started.</li>
+        <li>Duration: The duration of the conversation being live.</li>
+        <li>First Agent Time: The time the conversation was actually answered by the user. After the Started time of the conversation.</li>
+        <li>Total Agent Time: The total time the user spent on the conversation.</li>
+        <li>Departments: The departments the conversation went through.</li>
+        <li>Users: The users that were offered the conversation or were active participants in the conversation.</li>
+        <li>Dispositions: The dispositions applied to the conversation.</li>
+        <li>Contact Methods: The contact methods of the contacts involved with the conversation.</li>
+        <li>Referral Source: The referral source from which the conversation spawned, if any were used.</li>
+        <li>CSAT: Customer satisfaction rating. The CSAT rating is from 1-5 Stars, where 1 is the lowest rating and 5 is the highest rating.</li>
+    </ol>                     
+                            
+<h3>Department Overview</h3>
+    <p>The Department Overview report provides a breakdown of interactions managed by each department. It includes detailed statistics and additional data specific to departmental performance, offering insights into workload and efficiency.</p>
+    <ol>
+        <li>Click the "Department Overview" Button.</li>
+        <li>Select a Date Range: Choose the appropriate date range for the report.</li>
+        <li>Complete All Required Fields: Fill in the necessary details as filters to obtain the report.</li>
+        <li>Click the "Search" Button: Finalise the report generation by clicking the "Search" button to display the results.</li>
+    </ol> 
+                    
+<p>Step 1: Click the "Department Overview" Button.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Department Overview" loading="lazy">
+    </div>
+<p>Step 2: Select a Date Range: Choose the appropriate date range for the report.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Select a Date Range" loading="lazy">
+    </div>
+<p>Step 3: Complete All Required Fields: Fill in the necessary details as filters to obtain the report.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Complete All Required Fields" loading="lazy">
+    </div>
+<p>Step 4: Click the "Search" Button: Finalise the report generation by clicking the "Search" button to display the results.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Search" loading="lazy">
+    </div>
+
+<h4>Example</h4>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Example" loading="lazy">
+    </div>
+                            
+<h4>Filters</h4>
+    <ol>
+        <li>From: A date with time representing the start of your query time range. No information older than this date is used.</li>
+        <li>To: A date with time representing the end of your query time range. No information newer than this date is used.</li>
+        <li>Users: Specific users, you wish the information to be limited to. Selecting users ‘X’ and ‘Y’ for example will result in information for only those users. Specifying no users means all users will be included. Note that combining the user's filter with the department's filter results in productivity for the specific users under the specific departments. For example, selecting user ‘X’ and department ‘A’ will only show the productivity user ‘X’ has under department ‘A’.</li>
+    </ol>
+
+<h4>Output</h4>
+    <ol>
+        <li>Department Group: Should the Department be associated with a Department Group, then the group will display. Used for grouping various departments together for reporting purposes.</li>
+        <li>Department: Department for stats displayed.</li>
+        <li>Inbound: The total amount on Inbound Interactions.</li>
+        <li>Outbound: The total amount of Outbound Interactions.</li>
+        <li>Lost: The total amount of lost (Abandoned) conversations.</li>
+        <li>Lost (%): Percentage of Abandoned calls divided by total calls handled by the users in that department.</li>
+        <li>Talk Time: Total duration the Department users have spent communicating. Note this sum does not include time spent in wrap-up.</li>
+        <li>Pres: Amount of dispositions applied that are presentations.</li>
+        <li>DMC: Amount of dispositions applied that are decision-making contacts.</li>
+        <li>Sale: Amount of dispositions applied that are sales.</li>
+        <li>Conv (%): The percentage of decision-making contacts converted into sales.</li>
+        <li>CSAT: Customer satisfaction rating. The CSAT rating is from 1-5 Stars, where 1 is the lowest rating and 5 is the highest rating.</li>
+        <li>Average CSAT: A visual image of the average percentage of CSAT's received by a department.</li>
+        <li>CSAT: Satisfied CSAT scores represented in percentages.</li>
+        <li>CSAT Count: A representation of the number of interactions that received a CSAT rating.</li>
+    </ol>                     
+                            
+<h3>Department User Activity</h3>
+<p>The Department User Activity Report provides insights into user activity within a specified 10-minute period, organized by department. It visualizes a timeline that shows the various states the user was in during that timeframe. Please note that the report only captures data for the 10-minute window specified; any changes to the user's status outside of this period will not be included. If no specific start and end times are selected, the report will generate a random 10-minute timeframe from throughout the day.</p>
+    <ol>
+        <li>Click the "Department User Activity" Button.</li>
+        <li>Select a Date Range: Choose the appropriate date range for the report.</li>
+        <li>Complete All Required Fields: Fill in the necessary details as filters to obtain the report.</li>
+        <li>Click the "Search" Button: Finalise the report generation by clicking the "Search" button to display the results.</li>
+    </ol>                    
+
+<p>Step 1: Click the "Department User Activity" Button.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Department User Activity" loading="lazy">
+    </div>
+<p>Step 2: Select a Date Range: Choose the appropriate date range for the report.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Date Range" loading="lazy">
+    </div>
+<p>Step 3: Complete All Required Fields: Fill in the necessary details as filters to obtain the report.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Complete All Required Fields" loading="lazy">
+    </div>
+<p>Step 4: Click the "Search" Button: Finalise the report generation by clicking the "Search" button to display the results.</p>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Search" loading="lazy">
+    </div>
+                        
+<h4>Example</h4>
+    <div class="full_image">
+        <img class="img-fluid" src="pictures/supervisor/.png" alt="Example" loading="lazy">
+    </div>
+                            
+<h4>Filters</h4>
+    <ol>
+        <li>From: A date with time representing the start of your query time range. No information older than this date is used. This will be the start of your 10 min period.</li>
+        <li>To: A date with time representing the end of your query time range. No information newer than this date is used. This will be the end of your 10 min period.</li>
+        <li>Departments: Specific departments you wish the information to be limited to. Selecting departments ‘X’ and ‘Y’ for example will result in information for only those departments. Specifying no departments means all departments will be included.</li>
+    </ol>
